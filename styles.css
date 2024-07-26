@@ -142,17 +142,26 @@ header {
     display: none;
 }
 
+main {
+    margin-left: 120px;
+}
+
 body {
     margin-top: 150px;
-    width: 100%;
+    width: 80%;
     height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
    
 }
 
 .logo-image {
-   margin-right: 100px;
-   width: 350px;
+
+   width: 250px;
    height: auto;
+   padding-right: 94px;
 
 }
 
@@ -162,9 +171,12 @@ section {
 
 }
 
+p {
+   width: 300px;
+}
 
-
-
-
+h1 {
+    font-size: 50px;
+}
     
 } 
